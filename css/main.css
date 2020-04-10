@@ -1,0 +1,29 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: inline-block;
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+.banner {
+  position: relative;
+  max-height: 400px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+
+
+
+.absolute {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
