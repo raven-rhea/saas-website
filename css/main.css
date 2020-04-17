@@ -2,8 +2,17 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+.back-blue {
+  background-color: #9fc3d9;
+}
+
+.back-tur {
+  background-color: #d0eeec;
+}
+
 nav {
   display: inline-block;
+  text-align: center;
 }
 
 .img {
@@ -14,16 +23,27 @@ nav {
 .banner {
   position: relative;
   max-height: 400px;
-  width: 100%;
-  display: block;
   overflow: hidden;
 }
 
+.top-nav {
+  background-color: #dee9f0;
 
+}
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.hover:hover {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+
+}
 
 .absolute {
   position: absolute;
-  top: 30%;
-  left: 30%;
+  top: 20%;
+  left: 20%;
 }
