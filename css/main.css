@@ -45,5 +45,9 @@ a {
 .absolute {
   position: absolute;
   top: 20%;
-  left: 20%;
+  left: 30%;
+}
+
+.social {
+  display: inline;
 }
