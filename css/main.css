@@ -50,7 +50,6 @@ a {
 
 .social {
   display: inline;
-  align-items: stretch;
 }
 
 .white {
@@ -59,4 +58,19 @@ a {
 
 .back-opacity {
   background-color: rgba(159, 195, 217, 0.7);
+}
+
+table {
+  border: 6px solid #336280;
+}
+
+th {
+  background-color: #9fc3d9;
+  text-align: center;
+  border: 6px solid #336280;
+}
+
+td {
+  border: 1px solid #000;
+  text-align: center;
 }
