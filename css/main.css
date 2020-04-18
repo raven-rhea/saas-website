@@ -22,37 +22,41 @@ nav {
 
 .banner {
   position: relative;
-  max-height: 400px;
+  max-height: 700px;
   overflow: hidden;
 }
 
-.top-nav {
+.back-lightblue {
   background-color: #dee9f0;
 }
 
 a {
   text-decoration: none;
   color: #000;
+  padding: .5em .75em;
 }
 
 .hover:hover {
-  background-color: #000;
+  background-color: #9fc3d9;
   color: #fff;
   border-radius: 8px;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
 }
 
 .absolute {
   position: absolute;
   top: 20%;
-  left: 30%;
+  left: 10%;
 }
 
 .social {
   display: inline;
+  align-items: stretch;
 }
 
 .white {
   color: #fff;
+}
+
+.back-opacity {
+  background-color: rgba(159, 195, 217, 0.7);
 }
