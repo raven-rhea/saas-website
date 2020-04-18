@@ -1,6 +1,5 @@
 html {
-  font-family: Roboto, sans-serif;
-  line-height: 1.3rem;
+  font: normal 100%/1.3 "Roboto", sans-serif;
 }
 
 .back-blue {
@@ -9,6 +8,10 @@ html {
 
 .back-tur {
   background-color: #d0eeec;
+}
+
+.back-lightblue {
+  background-color: #dee9f0;
 }
 
 nav {
@@ -23,18 +26,22 @@ nav {
 
 .banner {
   position: relative;
-  max-height: 700px;
+  max-height: 500px;
   overflow: hidden;
-}
-
-.back-lightblue {
-  background-color: #dee9f0;
 }
 
 a {
   text-decoration: none;
+}
+
+.top-nav {
+  text-decoration: none;
   color: #000;
   padding: .5em .75em;
+}
+
+.white {
+  color: #fff;
 }
 
 .hover:hover {
