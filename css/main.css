@@ -1,5 +1,5 @@
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .back-blue {
@@ -28,23 +28,19 @@ nav {
 
 .top-nav {
   background-color: #dee9f0;
-
 }
 
 a {
   text-decoration: none;
   color: #000;
-  padding: .5em .75em;
 }
 
 .hover:hover {
   background-color: #000;
   color: #fff;
-  padding: .5em .75em;
   border-radius: 8px;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-
 }
 
 .absolute {
